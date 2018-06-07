@@ -133,4 +133,4 @@ if (message.content.startsWith(prefix + "logout")) {
 	}	
 	
 });
-client.login(token)
+client.login(process.env.TOKEN)
