@@ -2,15 +2,11 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const token = "NDUzOTUzMzEyNTAxMjY4NDk1.DfmYfg.TjmWCgy_hexS-84Pd88lD89o9Bk";
 const fs = require('fs');
-const momentsjs = require('./utiles/moments.js');
-
 const prefix = "rust!";
 
 
 const defaultchannelwelcome = 394196679089192981;  // MODIFIABLE !
 const channelautomessage = 394196679089192981;  // MODIFIABLE !
-
-const moment = require('./utiles/moments.js');
 
 const snekfetch = require('snekfetch');
 //=====Variables-Constances=====//
@@ -63,11 +59,6 @@ client.on('message', message => {
 		message.guild.channels.find("name", "logs").send(prefix + "start_messages")
     }},3600000); // 1000 = 1 seconde
 	}
-		
-		
-	//addons
-  					const messages = require("./messages.js");
-					messages(message, prefix, client)
 				
 		
 	if (message.content == "clear") {
