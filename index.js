@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = "NDUzOTUzMzEyNTAxMjY4NDk1.DfmYfg.TjmWCgy_hexS-84Pd88lD89o9Bk";
+const token = process.env.TOKEN;
 const fs = require('fs');
 const prefix = "rust!";
 
