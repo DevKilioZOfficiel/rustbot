@@ -7,7 +7,6 @@ const prefix = "rust!";
 const defaultchannelwelcome = 394196679089192981;  // MODIFIABLE !
 const channelautomessage = 394196679089192981;  // MODIFIABLE !
 
-const snekfetch = require('snekfetch');
 //=====Variables-Constances=====//
 const memberCount = client.users.size;
 const servercount = client.guilds.size;
